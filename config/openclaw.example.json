@@ -1,0 +1,20 @@
+{
+  "// WARNING": "This is an EXAMPLE config. Never commit real API keys to GitHub.",
+  "// LOCATION": "Actual config lives at /home/ubuntu/.openclaw/openclaw.json",
+
+  "gateway": {
+    "port": 18789,
+    "auth": {
+      "token": "YOUR_GATEWAY_TOKEN_HERE"
+    }
+  },
+  "model": {
+    "provider": "anthropic",
+    "apiKey": "sk-ant-XXXXXXXXXXXXXXXXXXXXXXXX"
+  },
+  "skills": {
+    "install": {
+      "nodeManager": "npm"
+    }
+  }
+}
